@@ -10,7 +10,7 @@ import NotFound from './NotFound/NotFound';
 function App() {
   let Routes = createBrowserRouter([
     {
-      path: '',
+      path: 'startFramework',
       element: <Layout />,
       errorElement: <NotFound/>,
       children: [

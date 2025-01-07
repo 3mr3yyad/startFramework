@@ -4,7 +4,7 @@ export default function Navbar() {
     <>
       <nav  className="navbar navbar-expand-lg fixed-top py-4">
   <div className="container">
-    <Link className="navbar-brand text-white fw-bolder fs-2 text-uppercase" to="">Start Framework</Link>
+    <Link className="navbar-brand text-white fw-bolder fs-2 text-uppercase" to="/startFramework">Start Framework</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
