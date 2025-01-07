@@ -14,7 +14,7 @@ function App() {
       element: <Layout />,
       errorElement: <NotFound/>,
       children: [
-        { path: '', element: <Home /> },
+        { path: 'startFramework', element: <Home /> },
         { path: 'about', element: <About /> },
         { path: 'portfolio', element: <Portfolio /> },
         { path: 'contact', element: <Contact /> }
